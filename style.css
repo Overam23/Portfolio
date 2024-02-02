@@ -103,6 +103,8 @@ paragraphs   */
 }
 /* mfs div */
 .mfS{
+    display: flex;
+    flex-wrap: wrap;
     top: 55%;
     position: relative;
     width: 10%;
@@ -110,6 +112,8 @@ paragraphs   */
 }
 /*password generator div  */
 .rpG{
+    display: flex;
+    flex-wrap: wrap;
     top: 82%;
     position: absolute;
     width: 10%;
@@ -117,6 +121,8 @@ paragraphs   */
 }
 /* rainy dayz div */
 .rainyD{
+    display: flex;
+    flex-wrap: wrap;
     left: 55%;    
     top: 82%;
     position: absolute;
