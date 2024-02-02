@@ -1,0 +1,141 @@
+/* body (whole file) */
+body{
+    background-color:#6aa56a;
+}
+/* top area with my name and links
+to about me, my work and contact info */
+header 
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    padding: 40px;
+    text-align: left;
+    background: hwb(56 53% 11%);
+    color: #6aa56a;
+    flex: auto;
+    margin: auto;
+}
+/* unordered list displayed horizontal now */
+.nav-links{
+    
+    display: flex;
+    float:right;
+    margin-right:70px;
+}
+.nav-links ul{
+    
+    list-style-type: none;
+    font-size: 18px;
+}
+.nav-links li{
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 30x;
+    color: #6aa56a;
+}
+
+/* about me made different "containers"
+to alternate between each section */
+#aboutMe{   
+    padding: 10px;
+    text-align: left;
+    background: #6aa56a;
+    color: hwb(56 53% 11%) ;
+    flex: auto;
+  /* trying to allign pic as best as I could */
+}
+.picOfme{
+    margin-right: 1%;
+    float: left;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    }
+/* about me paragraph settings */
+#aboutMe p{
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 2%;
+    margin-left: 10%;
+    }
+/* my work section */
+    #myWork{    
+    margin-block: 10%;
+    padding: 100px;
+    background: hwb(56 53% 11%);
+    color: #6aa56a;
+    
+}
+/* adjusting font size and location of text for 
+paragraphs   */
+ #myWork p{
+    position: relative;
+    font-size: 20px;
+    padding: 10px;
+   
+   
+}
+/* quiz img  */
+.quizImg{
+    border: 2px solid #6aa56a; 
+    float: left;
+    width: 200px;
+    height: 200px;
+    
+ }
+/* pw generator img */
+.rpgImg{
+    border: 2px solid #6aa56a; 
+    float:right;
+    width: 200px;
+    height: 200px;
+  
+}
+/* rainy dayz img */
+.rainyImg{
+    border: 2px solid #6aa56a; 
+    float:left;
+    width: 200px;
+    height: 200px;
+   
+    
+}
+/* mfs div */
+.mfS{
+    top: 55%;
+    position: relative;
+    width: 10%;
+    left: 5%;
+}
+/*password generator div  */
+.rpG{
+    top: 82%;
+    position: absolute;
+    width: 10%;
+    left: 35%;
+}
+/* rainy dayz div */
+.rainyD{
+    left: 55%;    
+    top: 82%;
+    position: absolute;
+    width: 40%;
+}
+/* contact info */
+.contactMe{
+    color:hwb(56 53% 11%) ;
+    display: flex;
+    float:left;
+    margin-right:70px;
+}
+.contactMe ul{
+    list-style-type: none;
+    font-size: 18px;
+}
+.contactMe li{
+    display: inline-block;
+    margin-left: 250px;
+    margin-bottom: 30x;
+    
+}
